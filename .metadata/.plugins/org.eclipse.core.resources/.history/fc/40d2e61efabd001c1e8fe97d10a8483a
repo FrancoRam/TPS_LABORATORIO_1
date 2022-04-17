@@ -55,6 +55,8 @@ La diferencia de precio es : r “
 #define PRECIO_L 1350000.76
 
 
+//void ForzarDatos(float kilometrosIngresados, float precioAerolineasIngresado, float precioLatamIngresado);
+
 
 int main(void) {
 	setbuf(stdout, NULL);

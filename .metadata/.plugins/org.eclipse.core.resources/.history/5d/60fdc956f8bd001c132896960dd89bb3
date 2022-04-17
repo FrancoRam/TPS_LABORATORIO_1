@@ -45,7 +45,7 @@ La diferencia de precio es : r “
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "bibliotecaTP1.h"
+#include "bibliotecaTP_1.h"
 
 #define PORCENTAJE_DESCUENTO 10
 #define PORCENTAJE_INTERES 25
@@ -162,7 +162,7 @@ int main(void) {
 				DesplegarMenu(costoConDescuentoL, costoConInteresL, costoEnBitcoinL, costoPrecioUnitarioL,costoConDescuentoA, costoConInteresA, costoEnBitcoinA, costoPrecioUnitarioA, diferenciaCostos);
 				break;
 			case 6:
-
+				puts("SALIÓ");
 				break;
 			}
 		}

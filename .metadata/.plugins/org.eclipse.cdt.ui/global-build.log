@@ -1,7 +1,15 @@
-23:47:55 **** Rebuild of configuration Debug for project tp_1 ****
+11:31:32 **** Incremental Build of configuration Debug for project pruebaTp3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaOperaciones.o" "..\\src\\bibliotecaOperaciones.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaTP1.o" "..\\src\\bibliotecaTP1.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp_1.o" "..\\src\\tp_1.c" 
-gcc -o tp_1.exe "src\\bibliotecaOperaciones.o" "src\\bibliotecaTP1.o" "src\\tp_1.o" 
-Info: Nothing to build for tp_1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\Franc\\OneDrive\\Escritorio\\eclipse_tp3_v4\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+11:32:21 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\Franc\\OneDrive\\Escritorio\\eclipse_tp3_v4\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+20:04:41 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\Franc\\OneDrive\\Escritorio\\eclipse_tp3_v4\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o -lLinkedList 
